@@ -1,4 +1,3 @@
-
 FROM node:14-alpine AS build
 WORKDIR /front-end
 COPY package*.json ./
